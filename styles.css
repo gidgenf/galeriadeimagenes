@@ -1,11 +1,9 @@
-body {
-    background-color: rgb(255, 255, 165);
-}
-
 .image{
     border: 5px solid green;
     border-radius: 10px;
-    height: 400px;
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%;
 }
 
 .link-button {
@@ -16,4 +14,15 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    ;
+}
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    ;
 }
