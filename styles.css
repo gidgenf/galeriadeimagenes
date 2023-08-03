@@ -1,5 +1,9 @@
 body {
     background-color: rgb(255, 255, 165);
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: large;
+    font-weight: bold;
 }
 
 .image{
@@ -34,3 +38,4 @@ body {
     box-shadow: none;
     transform: scale(0.98);
   }
+
