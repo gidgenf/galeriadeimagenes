@@ -14,10 +14,11 @@ body {
     border: 0;
     border-radius: 100px;
     background-color: black;
-    color: #ffffff;
+    color:green;
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
+    margin-top: 1%
   }
   
   .link-button:hover {
