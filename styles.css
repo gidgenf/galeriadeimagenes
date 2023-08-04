@@ -14,12 +14,12 @@ body {
 
 
 .link-button {
-    padding: 12.5px 30px;
+    padding: 10.5px 20px;
     border: 0;
     border-radius: 50px;
     background-color: black;
     color:green;
-    font-weight: Bold;
+    font-weight: bolder
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     margin-top: 3%
@@ -27,7 +27,7 @@ body {
   }
   
   .link-button:hover {
-    background-color:green;
+    background-color:rgb(230, 221, 109);
     box-shadow: 0 0 20px #6fc5ff50;
     transform: scale(1.1);
   }
