@@ -14,7 +14,10 @@ body {
     max-width: 100%;
 }
 
-
+li{
+  list-style: none;
+  margin: 5px;
+}
 .link-button {
     padding: 12.5px 30px;
     border: 0;
