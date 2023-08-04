@@ -1,11 +1,21 @@
 body {
-    background-color: rgb(255, 255, 165);
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45rad, rgb(255, 196, 2), rgb(247, 122, 6) ,rgba(255, 0, 0, 0.616),rgb(248, 15, 229), rgb(164, 31, 226));
+  position: relative;
+  background-size: 300% 200%;
+  animation: fondo 30s ease-in-out infinite;
+  z-index: -1;
     font-family: 'Lora', serif;
     color: black;
     font-size: large;
     font-weight: bold;
 }
-
+@keyframes fondo{
+  0%{background-position: 0 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0 50%;}
+}
 .image{
     border: 5px solid green;
     border-radius: 10px;
